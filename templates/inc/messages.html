@@ -1,0 +1,7 @@
+{% if messages %}
+
+    {% for msg in messages %}
+         <small class="alter alter-{{msg.tags}}">{{msg}}</small>
+    {% endfor %}
+
+{% endif %}
